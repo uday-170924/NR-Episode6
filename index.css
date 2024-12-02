@@ -1,0 +1,81 @@
+/* *{
+    margin:10px;
+    padding:0px;
+} */
+.header{
+    display: flex; 
+    justify-content: space-between;
+    border: 1px solid black;
+    
+}
+.links-container{
+    font-size:18px;
+}
+.links-container  ul{
+    display: flex;
+    list-style-type: none;
+    padding-right: 36px;
+    align-content: center;
+}
+.logo{
+    width:100px;
+    margin:10px;
+}
+.links-container  ul li{
+    padding: 10px;
+    margin:10px;
+
+}
+.restro-card{
+    width:200px;
+    height:400px;
+    background: #f0f0f0;
+    padding:10px;
+    margin:5px;  
+    box-sizing: border-box;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+    /* border: 1px solid black; */
+}
+.res-logo{
+    width:100%;
+    max-height:100px;
+}                                                                                           
+.restro-card:hover{
+    border:1px solid black;                                                                         
+}
+.restro-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.filter-btn{
+    margin: 20px ;
+    /* padding: 5px; */
+    cursor:pointer   ;
+}
+.shimmer-cards{
+    width:200px;
+    height:400px;
+    background: #f0f0f0;
+    padding:10px;
+    margin:5px; 
+
+}
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.login{
+    width:50px;
+    cursor: pointer;
+
+
+}
+.filter{
+    display: flex;
+    
+}
+.search{
+    margin: 10px;
+}
+.input-box{
+    margin: 10px;
+}
